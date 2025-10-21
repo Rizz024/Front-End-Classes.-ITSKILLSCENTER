@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div> 
+                <h1 style="text-align: center;">Student Information</h1>
+           
+        <form  style="width: 600px;
+                margin: 20px auto;
+                background-color: burlywood">
+            <table>
+                <tr>
+                    <td><label for="fname"> First Name:</label></td>
+                    <td><input type="text" placeholder="--Enter First Name--" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lname"> Last Name:</label></td>
+                    <td><input type="text" placeholder="--Enter Last Name--"></td>
+                </tr>
+                 <tr>
+                    <td><label for="Email"> Email :</label></td>
+                    <td><input type="email" placeholder="@gmail.com"></td>
+                 </tr>
+                <tr>
+                    <td><label for="Age">  Age:</label></td>
+                    <td><input type="number" minlength="0"></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender:</label></td>
+                    <td>
+                        Male<input type="radio" name="Gender">
+                        Female<input type="radio" name="Gender">
+                        Others<input type="radio" name="Gender">
+                  </td>
+                </tr>
+                <tr>
+                    <td><label for="Course of study"> Course Of Study:</label></td>
+                    <td>
+                        <select name="Course Of Stusy">
+                         <option value="Mathematics"> Mathematics</option>
+                         <option value="Comp-Science"> Computer Science</option>
+                         <option value="Physics"> Physics</option>
+                         <option value="History"> History</option>
+                         <option value="Law"> Law</option>
+                         <option value="Finance"> Finance</option>
+                         <option value="Pharmacy"> Pharmacy</option> </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" maxlength="12"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone"> Phone Number:</label></td>
+                    <td><input type="tel" maxlength="16"></td>
+                </tr>
+                <tr>
+                    <td><label for="address"> Address:</label></td>
+                    <td><textarea name="address" placeholder="Enter Address" rows="5" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="Enrldate"> Enrollment Date:</label></td>
+                    <td>
+                        Day:<select name="Day">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        Month: <select name="Month">
+                            <option value=""></option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                        </select>
+                        Year: <select name="Year">
+                            <option value=""></option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2024">2023</option>
+                            <option value="2023">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Hobbies">Hobbies:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" >
+                        <label name="Reading">Reading</label>
+                        
+                         <input type="checkbox" >
+                        <label name="Swimminh">Swimming</label>
+
+                         <input type="checkbox" >
+                        <label name="Golfing">Golfing</label>
+
+                         <input type="checkbox" >
+                        <label name="Fishing">Fishing</label>
+                    </td>
+                </tr>
+                <tr> 
+                    <td><label for="Height"> Height:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                   <td><label for="Religion">Religion:</label></td>
+                    <td>
+                        Islam:<input type="radio" name="religion" value="Islam">
+                        Christian:<input type="radio" name="religion" value="Christian">
+                        Others:<input type="radio" name="religion" value="Others">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="Level">Level:</label></td>
+                       <td><select name="Level" id="">
+                            <option value="100">100</option>
+                            <option value="200">200</option>
+                            <option value="300">300</option>
+                            <option value="400">400</option>
+                            <option value="500">500</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="State of origin">State of Origin:</label></td>
+                    <td> <select name="State of origin" id="">
+                        <option value="Lagos">Lagos</option>
+                        <option value="Delta">Delta</option>
+                        <option value="Imo">Imo</option>
+                        <option value="Ogun">Ogun</option>
+                        <option value="Kano">Kano</option>
+                        <option value="Osun">Osun</option>
+                        <option value="Kaduna">Kaduna</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="Payadvice">Payment Advice:</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label for="Fav_color">Favorite Color</label></td>
+                    <td><input type="color"></td>
+                </tr>
+                <tr>
+                    <td><label for="Fav_food">Favorite Food:</label></td>
+                    <td> <select name="Fav_food" id="">
+                        <option value="Rice">Rice</option>
+                        <option value="Beans">Beans</option>
+                        <option value="Yam">Yam</option>
+                        <option value="Egg&potato">Egg&Potato</option>
+                        <option value="Bread&Egg">Bread&Egg</option>
+                        <option value="Bread&Beans">Bread&Beans</option>
+                        <option value="Chicken&Chips">Chicken&Chips</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Submit</button> &nbsp; <button>Reset</button>
+                    </td>     
+                </tr>
+            </table>
+                  
+        </form>
+    </div>
+</body>
+</html>
