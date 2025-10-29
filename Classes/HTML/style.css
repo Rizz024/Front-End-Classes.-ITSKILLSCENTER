@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(240, 4%, 61%);
+    font-family: Arial, sans-serif;
+    color: #000000;
+    line-height: 1.6;
+    padding: 20px;
+}
+header{
+    background-color: skyblue;
+    margin: 50px auto;
+}
+header h1{
+    text-align: center;
+    color: lightsalmon;
+}
+header p{
+    text-align: center;
+}
+main{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 50vw;
+    color: hsl(0, 0%, 0%);
+     padding: 20px;
+}
+h2:hover{
+    color: rgb(240, 239, 234);
+    background-color: rgb(14, 95, 85);
+}
+
+/* R    G        B */
+/* ff   ff       ff*/
+/*#ffff11 */
+/* HSL */
+/* R      G      B ,    100%,     50%*/
+/*R= 0 - 80 */
+/*g= 81 - 160 */
+/*B= 161 - 240 */
+
+
+/* ---  [R] o y [G] c [B] i v    */
+
