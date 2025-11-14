@@ -253,6 +253,15 @@
             <td>Bread&Beans</td>
         </tr>
     </table>
+    <div id="cali">Callistus</div>
+    
+    <div id="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+        <div class="flex-item">Item 4</div>
+
+    </div>
     <style>
         body{
             background-image: url('./img/Img1.jfif');
@@ -267,14 +276,36 @@
         }
         table{
             /* background-color: magenta; */
-            background-image: url("./img/proxy-image.jfif");
+            background-image: url("");
             background-size: cover;
             background-attachment: fixed;
+            background-position: center;
         }
         table{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
-
+        #cali{
+            border: 2px solid red;
+            border-width: 20px;
+            border-style: solid;
+            /* other values:groove, dotted, inset, outset, dash, initial, ridge; */
+            width: 58px;
+            height: 58px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+    #flex-container{
+      display: flex;
+      /* flex-direction: row-reverse; */
+      background-color: deepskyblue;
+      justify-content:space-between;
+    }
+     #flex-container div{
+        background-color: #fff;
+        padding: 30px;
+        margin: 20px;
+        height: 20px;
+     }
     </style>
 </body>
 </html>
